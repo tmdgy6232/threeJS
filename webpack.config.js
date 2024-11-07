@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
+  entry: './src/ex-03.js',
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',
@@ -16,5 +16,5 @@ module.exports = {
     compress: true,
     port: 9000,
     hot: true,
-  },
+  }
 }
